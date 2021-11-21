@@ -1,8 +1,9 @@
-var qr = require('qr-image'); //需要下载生成二维码依赖
-var fs = require('fs'); //文件操作依赖
-
+//需要下载生成二维码依赖
+var qr = require('qr-image'); 
+//文件操作依赖
+var fs = require('fs'); 
 // 接收命令行参数
-let arguments = process.argv.splice(2);		// 参数数组
+let arguments = process.argv.splice(2);	// 参数数组
 var url_string = arguments[0]; // 获取arg1
 var save_qr_image_url= arguments[1];  // 获取arg2
 // 生成二维码

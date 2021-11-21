@@ -9,10 +9,13 @@ npm install
 ## 运行
 
 * 控制台输出
+
+```JavaScript
+node test1 "http://www.baidu.com"
 ```
-node test1
-```
+
 * 保存文件
-```
+```JavaScript
 node test2 "http://www.baidu.com" ./result
 ```
+
